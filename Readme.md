@@ -19,7 +19,7 @@ Additional information
 ---------------------------
 
 * [Documentation in Russian](http://api.yandex.ru/metrica-mobile-sdk/) and [Documentation in English](http://api.yandex.com/metrica-mobile-sdk/), where you can find some additional information about **mobmetricalib**.
-* Test example for **mobmetricalib** is available at [https://github.com/yandexmobile/metrica-sample-android](https://github.com/yandexmobile/metrica-sample-android).
+* Test example for **mobmetricalib** is available at [https://github.com/yandexmobile/metrica-sample-android](https://github.com/yandexmobile/metrica-sample-android). Take a look to it please for more understanding.
 * You can register your app at [Yandex.Metrica for Apps homepage](http://appmetrica.yandex.ru/).
 
 
@@ -55,7 +55,7 @@ License agreement on use of Yandex.Metrica for Apps SDK is available at: [http:/
 Также у этого проекта есть:
 
 * [Документация на русском](http://api.yandex.ru/metrica-mobile-sdk/) и [на английском](http://api.yandex.com/metrica-mobile-sdk/), в которой содержится полная документация по **mobmetricalib** и описание подключения библиотеки к вашему проекту, а также инструкции по использованию.
-* Тестовый пример, который использует данную библиотеку. Вы можете найти его в другом репозитории [тут](https://github.com/yandexmobile/metrica-sample-android).
+* Тестовый пример, который использует данную библиотеку. Вы можете найти его в другом репозитории [тут](https://github.com/yandexmobile/metrica-sample-android). Присмотритесь к нему пожалуйста для большего понимания. 
 
 Лицензия
 ---------

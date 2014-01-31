@@ -8,6 +8,13 @@ This repository contains various versions of **Yandex.Metrica for Android Apps**
 * **mobmetricalib-android-1.2-javadoc.jar** - **Java**-doc for library.
 * **protobuf-java-2.5.0.jar** - **protobuf** library for **mobmetricalib-android-1.2-nolibs.jar**, version **2.5.0**.
 
+Alternatively you can get Metrica for Apps to your project as maven artifact. 
+Maven central:
+
+* **groupId**: com.yandex.android
+* **artifactId**: mobmetricalib
+* **version**: 1.2
+
 Version 1.2, Changelog
 ------------------------------
 
@@ -71,6 +78,12 @@ License agreement on use of Yandex.Metrica for Apps SDK is available at: [http:/
 * **mobmetricalib-android-1.2-wlibs.jar** - Версия с **protobuf-2.5.0** внутри.
 * **mobmetricalib-android-1.2-javadoc.jar** - **Java**-документация, которую вы можете подключить к библиотеке.
 * **protobuf-java-2.5.0.jar** - **protobuf** библиотека для **mobmetricalib-android-1.2-nolibs.jar**, версия **2.5.0**.
+
+Метрика для приложений доступна и как maven-артефакт на maven-central:
+
+* **groupId**: com.yandex.android
+* **artifactId**: mobmetricalib
+* **version**: 1.2
 
 Версия 1.2, Список изменений
 ------------------------------

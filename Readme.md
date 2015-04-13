@@ -12,6 +12,28 @@ Documentation
 Latest version
 ---------------------------
 
+`Mobmetricalib-1.65`, `VERSION 1.65`, `API LEVEL 21`
+--------------------------------------------
+
+* **mobmetricalib-android-1.65-nolibs.jar** - Without **protobuf** within itself.
+* **mobmetricalib-android-1.65-wlibs.jar** - With **protobuf-2.5.0** within itself.
+* **mobmetricalib-android-1.65-javadoc.jar** - **Java**-doc for library.
+* **protobuf-java-2.5.0.jar** - **protobuf** library for **mobmetricalib-android-1.65-nolibs.jar**, version **2.5.0**.
+* **native** - native libraries.
+
+Alternatively you can get Metrica for Apps to your project as maven artifact.
+Maven central:
+
+* **groupId**: com.yandex.android
+* **artifactId**: mobmetricalib
+* **version**: 1.65
+
+Version 1.65, Changelog
+------------------------------
+
+* Increased **API-level** to **21**.
+* Improved stability and accuracy.
+
 `Mobmetricalib-1.60`, `VERSION 1.60`, `API LEVEL 16`
 --------------------------------------------
 
@@ -40,7 +62,7 @@ Version 1.60, Changelog
 * Moved **API-key** definition from **AndroidManifest.xml** to **YandexMetrica** initialization method. Remove **API-key** from **AndroidManifest.xml**.
 * Removed **com.yandex.metrica.CampaignReceiver** from **AndroidManifest.xml**. Move the following lines of code to **com.yandex.metrica.MetricaEventHandler**:
 
-        <intent-filter> 
+        <intent-filter>
              <action android:name="com.android.vending.INSTALL_REFERRER"/>
         </intent-filter>
     
@@ -125,6 +147,27 @@ Yandex.Metrica для приложений
 
 Последняя версия
 ---------------------------
+
+`Mobmetricalib-1.65`, `VERSION 1.65`, `API LEVEL 21`
+--------------------------------------------
+
+* **mobmetricalib-android-1.65-nolibs.jar** - Версия без **protobuf** внутри.
+* **mobmetricalib-android-1.65-wlibs.jar** - Версия с **protobuf-2.5.0** внутри.
+* **mobmetricalib-android-1.65-javadoc.jar** - **Java**-документация, которую вы можете подключить к библиотеке.
+* **protobuf-java-2.5.0.jar** - **protobuf** библиотека для **mobmetricalib-android-1.65-nolibs.jar**, версия **2.5.0**.
+* **native** - нативные библиотеки.
+
+Метрика для приложений доступна и как maven-артефакт на maven-central:
+
+* **groupId**: com.yandex.android
+* **artifactId**: mobmetricalib
+* **version**: 1.65
+
+Версия 1.65, Список изменений
+------------------------------
+
+* Увеличен **metrica:api:level** до **21**. Обновите его значение в **AndroidManifest.xml**.
+* Повышена надежность статистики.
 
 `Mobmetricalib-1.60`, `VERSION 1.60`, `API LEVEL 16`
 --------------------------------------------

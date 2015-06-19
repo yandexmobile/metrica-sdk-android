@@ -12,6 +12,51 @@ Documentation
 Latest version
 ---------------------------
 
+`Mobmetricalib-1.82`, `VERSION 1.82`, `API LEVEL 31`
+--------------------------------------------
+
+* **mobmetricalib-android-1.82.jar** - jar file version.
+* **mobmetricalib-android-1.82.aar** - aar file version.
+* **mobmetricalib-android-1.82-javadoc.jar** - **Java**-doc for library.
+* **native** - native libraries.
+
+Alternatively you can get Metrica for Apps to your project as maven artifact.
+Maven central:
+
+* **groupId**: com.yandex.android
+* **artifactId**: mobmetricalib
+* **version**: 1.82
+
+Version 1.82, Changelog
+------------------------------
+
+* Increased **API-level** to **31**.
+* Improved quality of calculating statistics for sessions and installs.
+* Migrated to protobuf-nano — the overall size of the library is smaller and it works faster. If you were using the protobuf-2.5.0 library with the Yandex.Metrica for Apps library, delete it.
+* The AndroidManifest.xml file does not specify
+  provider:
+  ```
+  <provider
+      android:name="FULL_PACKAGE_PATH_TO_YOUR_PROVIDER.MetricaContentProvider"
+      android:authorities="ROOT_PACKAGE_PATH.MetricaContentProvider"
+      android:enabled="true"
+      android:exported="true"/>
+  ```
+  the following intent-filter for com.yandex.metrica.MetricaEventHandler:
+  ```
+  <intent-filter>
+      <action android:name="com.yandex.metrica.intent.action.SYNC"/>
+  </intent-filter>
+
+  <intent-filter>
+      <action android:name="android.intent.action.PACKAGE_ADDED"/>
+      <action android:name="android.intent.action.PACKAGE_DATA_CLEARED"/>
+      <data android:scheme="package"/>
+  </intent-filter>
+  ```
+* To use the Yandex.Metrica for Apps library, you do not need to create a custom provider class in the application package with the name MetricaContentProvider that inherits from com.yandex.metrica.MetricaContentProvider. Delete it from your application.
+* Added the ability to transmit [additional crash data.](https://tech.yandex.com/metrica-mobile-sdk/doc/mobile-sdk-dg/concepts/android-operations-docpage/#environment-value)
+
 `Mobmetricalib-1.65`, `VERSION 1.65`, `API LEVEL 21`
 --------------------------------------------
 
@@ -147,6 +192,51 @@ Yandex.Metrica для приложений
 
 Последняя версия
 ---------------------------
+
+`Mobmetricalib-1.82`, `VERSION 1.82`, `API LEVEL 31`
+--------------------------------------------
+
+* **mobmetricalib-android-1.82.jar** - jar версия.
+* **mobmetricalib-android-1.82.aar** - aar версия.
+* **mobmetricalib-android-1.82-javadoc.jar** - **Java**-документация, которую вы можете подключить к библиотеке.
+* **native** - нативные библиотеки.
+
+Метрика для приложений доступна и как maven-артефакт на maven-central:
+
+* **groupId**: com.yandex.android
+* **artifactId**: mobmetricalib
+* **version**: 1.82
+
+Версия 1.82, Список изменений
+------------------------------
+
+* Увеличен **metrica:api:level** до **31**. Обновите его значение в **AndroidManifest.xml**.
+* Повышено качество подсчета статистики сессий и установок.
+* Осуществлен переход на protobuf-nano — увеличена скорость работы и сокращен общий размер библиотеки. Если вы использовали библиотеку protobuf-2.5.0 для работы с библиотекой Yandex.Metrica for Apps, удалите ее.
+* В файле AndroidManifest.xml не указываются
+  provider:
+  ```
+  <provider
+      android:name="FULL_PACKAGE_PATH_TO_YOUR_PROVIDER.MetricaContentProvider"
+      android:authorities="ROOT_PACKAGE_PATH.MetricaContentProvider"
+      android:enabled="true"
+      android:exported="true"/>
+  ```
+  следующие intent-filter для com.yandex.metrica.MetricaEventHandler:
+  ```
+  <intent-filter>
+      <action android:name="com.yandex.metrica.intent.action.SYNC"/>
+  </intent-filter>
+
+  <intent-filter>
+      <action android:name="android.intent.action.PACKAGE_ADDED"/>
+      <action android:name="android.intent.action.PACKAGE_DATA_CLEARED"/>
+      <data android:scheme="package"/>
+  </intent-filter>
+  ```
+* Для работы библиотеки Yandex.Metrica for Apps не требуется создавать в пакете приложения собственный класс провайдера с названием MetricaContentProvider, наследующий класс com.yandex.metrica.MetricaContentProvider. Удалите его из своего приложения.
+* Добавлена возможность [передавать дополнительные данные](https://tech.yandex.ru/metrica-mobile-sdk/doc/mobile-sdk-dg/concepts/android-operations-docpage/#environment-value) об аварийных остановках приложения.
+
 
 `Mobmetricalib-1.65`, `VERSION 1.65`, `API LEVEL 21`
 --------------------------------------------

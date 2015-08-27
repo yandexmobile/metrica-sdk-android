@@ -6,11 +6,37 @@ This repository contains various versions of **Yandex.Metrica for Android Apps**
 Documentation
 ---------------------------
 * You can register your app at [Yandex.Metrica for Apps homepage](http://appmetrica.yandex.ru/).
-* [Documentation in Russian](http://api.yandex.ru/metrica-mobile-sdk/) and [Documentation in English](http://api.yandex.com/metrica-mobile-sdk/) are available. You can find some additional information about **mobmetricalib** there.
+* [Documentation in Russian](https://tech.yandex.ru/metrica-mobile-sdk/doc/mobile-sdk-dg/concepts/android-initialize-docpage/) and [Documentation in English](https://tech.yandex.com/metrica-mobile-sdk/doc/mobile-sdk-dg/concepts/android-initialize-docpage/) are available. You can find some additional information about **mobmetricalib** there.
 * Test example for **mobmetricalib** is available at [https://github.com/yandexmobile/metrica-sample-android](https://github.com/yandexmobile/metrica-sample-android). It demonstrates several library use-cases.  
 
 Latest version
 ---------------------------
+`Mobmetricalib-2.00`, `VERSION 2.00`, `API LEVEL 32`
+--------------------------------------------
+* **mobmetricalib-2.00.jar** - jar file version.
+* **mobmetricalib-2.00.aar** - aar file version.
+* **mobmetricalib-2.00-javadoc.jar** - **Java**-doc for library.
+* **native** - native libraries.
+
+Alternatively you can get Metrica for Apps to your project as maven artifact.
+Maven central:
+
+* **groupId**: com.yandex.android
+* **artifactId**: mobmetricalib
+* **version**: 2.00
+
+Version 2.00, Changelog
+------------------------------
+* The API_KEY format has been changed. The app ID in a new format is available in the [AppMetrica web interface](http://appmetrika.yandex.ru/) when the app editing mode is engaged.
+* The method of initializing the library in the app has been renamed from **initialize(android.content.Context, java.lang.String)** to **activate(android.content.Context, java.lang.String)**.
+* The session length has been changed. Now it is 10 seconds, by default.
+* The library has been adapted for Android M.
+* We have significantly improved performance and reduced the power consumption.
+* Removed obsolete method **setReportsEnabled(boolean enabled)** — lets you enable and disable sending reports.
+* Removed obsolete method **setDispatchPeriod(int dispatchPeriodSeconds)** — allows you to set the interval in seconds between sending accumulated events to the server.
+* Removed obsolete method **setMaxReportsCount(int maxReportsCount)** — allows you to set the maximum number of events that can be stored up before sending all accumulated events to the server.
+* Removed obsolete method **startNewSessionManually()** — allows you to start a new session manually.
+* Removed obsolete method **sendEventsBuffer()** — allows you to send all accumulated events without waiting for them to automatically be sent to the server.
 
 `Mobmetricalib-1.82`, `VERSION 1.82`, `API LEVEL 31`
 --------------------------------------------
@@ -187,11 +213,36 @@ Yandex.Metrica для приложений
 Документация
 ---------------------------
 * Вы можете зарегистрировать свое приложение на [домашней странице Yandex.Metrica for Apps](http://appmetrica.yandex.ru/).
-* Доступна [документация на русском](http://api.yandex.ru/metrica-mobile-sdk/) и [на английском](http://api.yandex.com/metrica-mobile-sdk/), в которой содержится полная документация по **mobmetricalib** и описание подключения библиотеки к вашему проекту, а также инструкции по использованию.
+* Доступна [документация на русском](https://tech.yandex.ru/metrica-mobile-sdk/doc/mobile-sdk-dg/concepts/android-initialize-docpage/) и [на английском](https://tech.yandex.com/metrica-mobile-sdk/doc/mobile-sdk-dg/concepts/android-initialize-docpage/), в которой содержится полная документация по **mobmetricalib** и описание подключения библиотеки к вашему проекту, а также инструкции по использованию.
 * Доступен тестовый пример, демонстрирующий различные возможности библиотеки. Вы можете найти его в другом репозитории [здесь](https://github.com/yandexmobile/metrica-sample-android).
 
 Последняя версия
 ---------------------------
+`Mobmetricalib-2.00`, `VERSION 2.00`, `API LEVEL 32`
+--------------------------------------------
+* **mobmetricalib-2.00.jar** - jar версия.
+* **mobmetricalib-2.00.aar** - aar версия.
+* **mobmetricalib-2.00-javadoc.jar** - **Java**-документация, которую вы можете подключить к библиотеке.
+* **native** - нативные библиотеки.
+
+Метрика для приложений доступна и как maven-артефакт на maven-central:
+
+* **groupId**: com.yandex.android
+* **artifactId**: mobmetricalib
+* **version**: 2.00
+
+Версия 2.00, Список изменений
+------------------------------
+* Изменен формат API_KEY. Идентификатор приложения в новом формате доступен в веб-интерфейсе AppMetrica в режиме редактирования приложения.
+* Метод инициализации библиотеки в приложении переименован c **initialize(android.content.Context, java.lang.String)** на **activate(android.content.Context, java.lang.String)**.
+* Изменено время продолжительности сессии. По умолчанию значение составляет 10 секунд.
+* Библиотека адаптирована к Android M.
+* Повышена производительность и снижено энергопотребление.
+* Удален устаревший метод **setReportsEnabled(boolean enabled)** — позволяет включить и отключить отправку отчетов.
+* Удален устаревший метод **setDispatchPeriod(int dispatchPeriodSeconds)** — позволяет задать интервал в секундах между отправками накопившихся событий на сервер.
+* Удален устаревший метод **setMaxReportsCount(int maxReportsCount)** — позволяет задать число событий в хранилище, при достижении которого происходит отправка всех накопившихся событий на сервер.
+* Удален устаревший метод **startNewSessionManually()** — позволяет запустить новую сессию вручную.
+* Удален устаревший метод **sendEventsBuffer()** — позволяет отправить все накопившиеся события, не дожидаясь автоматической отправки на сервер.
 
 `Mobmetricalib-1.82`, `VERSION 1.82`, `API LEVEL 31`
 --------------------------------------------

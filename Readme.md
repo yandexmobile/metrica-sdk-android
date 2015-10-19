@@ -10,7 +10,42 @@ Documentation
 * Test example for **mobmetricalib** is available at [https://github.com/yandexmobile/metrica-sample-android](https://github.com/yandexmobile/metrica-sample-android). It demonstrates several library use-cases.  
 
 Latest version
+------------------------------
+`Mobmetricalib-2.20`, `VERSION 2.20`, `API LEVEL 35`
+--------------------------------------------
+* **mobmetricalib-2.20.jar** - jar file version.
+* **mobmetricalib-2.20.aar** - aar file version.
+* **mobmetricalib-2.20-javadoc.jar** - **Java**-doc for library.
+* **native** - native libraries.
+
+Alternatively you can get Metrica for Apps to your project as maven artifact.
+Maven central:
+
+* **groupId**: com.yandex.android
+* **artifactId**: mobmetricalib
+* **version**: 2.20
+
+Version 2.20, Changelog
 ---------------------------
+* Removed method YandexMetrica.isMetricaProcess().
+* Sending list of installed packages by default (method boolean setCollectInstalledApps(boolean collect)) was turned off .
+* Method isCollectInstalledApps() was added.
+* Method enableActivityAutoTracking(final Application application), which enables activity lifecycle auto tracking for Android 4+, was added method.
+* Method registerReferrerBroadcastReceivers(BroadcastReceiver...anotherReferrerReceivers), which gives possibility to register INSTALL_REFERRER trackers from another tracking systems, was added.
+* Method setLogEnabled for turning on AppMetrica SDK logging was added.
+* Aar version of AppMetrica SDK is default now in MavenCentral. To include Jar version via Gradle use com.yandex.android:mobmetricalib-internal:2.20:jar.
+* Error which crashed application with exception java.lang.NullPointerException at com.yandex.metrica.impl.ob.f.b was fixed.
+
+
+Удален метод YandexMetrica.isMetricaProcess().
+Отключена отправка по умолчанию сведений об установленных приложениях. Ознакомьтесь с правилами сбора и отправки сведений об установленных приложениях.
+Добавлен метод isCollectInstalledApps() — позволяет узнать, включена ли отправка сведений об установленных на устройстве приложениях.
+Добавлен метод enableActivityAutoTracking(final Application application), который позволяет включить автоматическое отслеживание жизненного цикла приложения.
+Добавлен метод registerReferrerBroadcastReceivers(BroadcastReceiver...anotherReferrerReceivers), который позволяет зарегистрировать в AppMetrica произвольное число BroadcastReceiver для трекинга INSTALL_REFERRER от GooglePlay при использовании других систем трекинга.
+По умолчанию, из Maven Central теперь подключается библиотека в AAR-формате. Для подключения библиотеки в JAR-формате, необходимо явно указывать классификатор: compile "com.yandex.android:mobmetricalib-internal:2.20:jar".
+Добавлен метод setLogEnabled, который позволяет включить логирование работы библиотеки.
+Исправлена ошибка, которая приводила к аварийной остановке приложения: java.lang.NullPointerException at com.yandex.metrica.impl.ob.f.b.
+
 `Mobmetricalib-2.00`, `VERSION 2.00`, `API LEVEL 32`
 --------------------------------------------
 * **mobmetricalib-2.00.jar** - jar file version.

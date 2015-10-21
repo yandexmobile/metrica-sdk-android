@@ -11,11 +11,11 @@ Documentation
 
 Latest version
 ------------------------------
-`Mobmetricalib-2.20`, `VERSION 2.20`, `API LEVEL 35`
+`Mobmetricalib-2.21`, `VERSION 2.21`, `API LEVEL 36`
 --------------------------------------------
-* **mobmetricalib-2.20.jar** - jar file version.
-* **mobmetricalib-2.20.aar** - aar file version.
-* **mobmetricalib-2.20-javadoc.jar** - **Java**-doc for library.
+* **mobmetricalib-2.21.jar** - jar file version.
+* **mobmetricalib-2.21.aar** - aar file version.
+* **mobmetricalib-2.21-javadoc.jar** - **Java**-doc for library.
 * **native** - native libraries.
 
 Alternatively you can get Metrica for Apps to your project as maven artifact.
@@ -23,9 +23,9 @@ Maven central:
 
 * **groupId**: com.yandex.android
 * **artifactId**: mobmetricalib
-* **version**: 2.20
+* **version**: 2.21
 
-Version 2.20, Changelog
+Version 2.21, Changelog
 ---------------------------
 * Method YandexMetrica.isMetricaProcess() was removed.
 * By default sending list of installed packages (method boolean setCollectInstalledApps(boolean collect)) was turned off .
@@ -33,7 +33,7 @@ Version 2.20, Changelog
 * Method enableActivityAutoTracking(final Application application), which enables activity lifecycle auto tracking for Android 4+, was added.
 * Method registerReferrerBroadcastReceivers(BroadcastReceiver...anotherReferrerReceivers), which gives possibility to register INSTALL_REFERRER trackers from another tracking systems, was added.
 * Method setLogEnabled for turning on AppMetrica SDK logging was added.
-* Aar version of AppMetrica SDK is default now in MavenCentral. To include Jar version via Gradle use com.yandex.android:mobmetricalib-internal:2.20:jar.
+* Aar version of AppMetrica SDK is default now in MavenCentral. To include Jar version via Gradle use com.yandex.android:mobmetricalib-internal:2.21:jar.
 * Error which crashed application with exception java.lang.NullPointerException at com.yandex.metrica.impl.ob.f.b was fixed.
 
 `Mobmetricalib-2.00`, `VERSION 2.00`, `API LEVEL 32`

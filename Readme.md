@@ -11,6 +11,26 @@ Documentation
 
 Latest version
 ------------------------------
+`Mobmetricalib-2.30`, `VERSION 2.30`, `API LEVEL 39`
+--------------------------------------------
+* **mobmetricalib-2.30.jar** - jar file version.
+* **mobmetricalib-2.30.aar** - aar file version.
+* **mobmetricalib-2.30-javadoc.jar** - **Java**-doc for library.
+* **native** - native libraries.
+
+Alternatively you can get Metrica for Apps to your project as maven artifact.
+Maven central:
+
+* **groupId**: com.yandex.android
+* **artifactId**: mobmetricalib
+* **version**: 2.30
+
+Version 2.30, Changelog
+---------------------------
+* Extended configuration of AppMetrica was added. Extended configuration guarantees that configuration parameters will be applied as soon as sdk will be initialized.
+* Tracking of preloaded apps was added.
+* Minor improvements and optimizations.
+
 `Mobmetricalib-2.21`, `VERSION 2.21`, `API LEVEL 36`
 --------------------------------------------
 * **mobmetricalib-2.21.jar** - jar file version.

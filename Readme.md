@@ -246,7 +246,6 @@ License agreement on use of Yandex.Metrica for Apps SDK is available at: [http:/
 
 
 ---------------
----------------
 
 
 Yandex.Metrica для приложений
@@ -263,6 +262,49 @@ Yandex.Metrica для приложений
 
 Последняя версия
 ---------------------------
+`Mobmetricalib-2.30`, `VERSION 2.30`, `API LEVEL 39`
+--------------------------------------------
+* **mobmetricalib-2.30.jar** - jar версия.
+* **mobmetricalib-2.30.aar** - aar версия.
+* **mobmetricalib-2.30-javadoc.jar** - **Java**-документация, которую вы можете подключить к библиотеке.
+* **native** - нативные библиотеки.
+
+Метрика для приложений доступна и как maven-артефакт на maven-central:
+
+* **groupId**: com.yandex.android
+* **artifactId**: mobmetricalib
+* **version**: 2.30
+
+Version 2.30, Changelog
+---------------------------
+* Добавлена возможность инициализация метрики с использованием расширенной конфигурации, которая гарантирует, что все конфигурационные параметры будут применены с момента инициализации при попытке отправки самого первого события.
+* Добавлен трекинг предустановленных на устройстве приложений.
+* Незначительские оптимизации и улучшения.
+
+`Mobmetricalib-2.21`, `VERSION 2.21`, `API LEVEL 36`
+---------------------------
+* **mobmetricalib-2.21.jar** - jar версия.
+* **mobmetricalib-2.21.aar** - aar версия.
+* **mobmetricalib-2.21-javadoc.jar**  - **Java**-документация, которую вы можете подключить к библиотеке.
+* **native** - нативные библиотеки.
+
+Метрика для приложений доступна и как maven-артефакт на maven-central:
+
+* **groupId**: com.yandex.android
+* **artifactId**: mobmetricalib
+* **version**: 2.21
+
+Версия 2.21, Список изменений
+---------------------------
+* Удален метод YandexMetrica.isMetricaProcess().
+* По умолчанию, отключен сбор и отправка сведений об установленных на устройстве приложениях(method boolean setCollectInstalledApps(boolean collect)).
+* Добавлен метод isCollectInstalledApps(), который показывает, включены ли сбор и отправка сведений об установленных на устройстве приложениях.
+* Добавлен метод enableActivityAutoTracking(final Application application), который автоматически отслеживает активность пользователей, начиная с Android 4+ (является альтернативой методам YandexMetrica.onResumeActivity(Activity activity) и YandexMetrica.onPauseActivity(Activity activity)).
+* Добавлен метод registerReferrerBroadcastReceivers(BroadcastReceiver...anotherReferrerReceivers), который дает возможность зарегистрировать GooglePlay INSTALL_REFERRER трекеры других систем аналитики.
+* Добавлен метод setLogEnabled, который позволяет включить логирование работы AppMetrica SDK.
+* Aar версия библиотеки теперь отдается по умолчанию из MavenCentral. Для использования jar версии через Gradle необходимо указать com.yandex.android:mobmetricalib-internal:2.21:jar.
+* Исправлена ошибка, приводившая к падению с креш-логом java.lang.NullPointerException at com.yandex.metrica.impl.ob.f.b.
+
 `Mobmetricalib-2.00`, `VERSION 2.00`, `API LEVEL 32`
 --------------------------------------------
 * **mobmetricalib-2.00.jar** - jar версия.

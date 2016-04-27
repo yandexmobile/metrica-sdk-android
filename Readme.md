@@ -10,7 +10,61 @@ Documentation
 * Test example for **mobmetricalib** is available at [https://github.com/yandexmobile/metrica-sample-android](https://github.com/yandexmobile/metrica-sample-android). It demonstrates several library use-cases.  
 
 Latest version
-------------------------------
+--------------
+`Mobmetricalib-2.41`, `VERSION 2.41`, `API LEVEL 44`
+----------------------------------------------------
+* **mobmetricalib-2.41.jar** - jar file version.
+* **mobmetricalib-2.41.aar** - aar file version.
+* **mobmetricalib-2.41-javadoc.jar** - **Java**-doc for library.
+* **native** - native libraries.
+
+Alternatively you can get Metrica for Apps to your project as maven artifact.
+Maven central:
+
+* **groupId**: com.yandex.android
+* **artifactId**: mobmetricalib
+* **version**: 2.41
+
+Version 2.41, Changelog
+-----------------------
+* Performance optimizations of sending data to server.
+
+`Mobmetricalib-2.40`, `VERSION 2.40`, `API LEVEL 43`
+----------------------------------------------------
+* **mobmetricalib-2.40.jar** - jar file version.
+* **mobmetricalib-2.40.aar** - aar file version.
+* **mobmetricalib-2.40-javadoc.jar** - **Java**-doc for library.
+* **native** - native libraries.
+
+Alternatively you can get Metrica for Apps to your project as maven artifact.
+Maven central:
+
+* **groupId**: com.yandex.android
+* **artifactId**: mobmetricalib
+* **version**: 2.40
+
+Version 2.40, Changelog
+-----------------------
+* Added the ability to send statistics using an API key that differs from the app's API key.
+
+`Mobmetricalib-2.32`, `VERSION 2.32`, `API LEVEL 41`
+---------------------------------------------------
+* **mobmetricalib-2.32.jar** - jar file version.
+* **mobmetricalib-2.32.aar** - aar file version.
+* **mobmetricalib-2.32-javadoc.jar** - **Java**-doc for library.
+* **native** - native libraries.
+
+Alternatively you can get Metrica for Apps to your project as maven artifact.
+Maven central:
+
+* **groupId**: com.yandex.android
+* **artifactId**: mobmetricalib
+* **version**: 2.32
+
+Version 2.32, Changelog
+-----------------------
+* Improved the stability of the library and the quality of statistical data.
+
 `Mobmetricalib-2.30`, `VERSION 2.30`, `API LEVEL 39`
 --------------------------------------------
 * **mobmetricalib-2.30.jar** - jar file version.

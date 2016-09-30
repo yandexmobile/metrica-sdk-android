@@ -11,6 +11,27 @@ Documentation
 
 Latest version
 --------------
+
+`Mobmetricalib-2.51`, `VERSION 2.51`, `API LEVEL 48`
+----------------------------------------------------
+* **mobmetricalib-2.51.jar** - jar file version.
+* **mobmetricalib-2.51.aar** - aar file version.
+* **mobmetricalib-2.51-javadoc.jar** - **Java**-doc for library.
+* **native** - native libraries.
+
+Alternatively you can get Metrica for Apps to your project as maven artifact.
+Maven central:
+
+* **groupId**: com.yandex.android
+* **artifactId**: mobmetricalib
+* **version**: 2.51
+
+Version 2.42, Changelog
+-----------------------
+* Improved the stability of the library.
+* Added support for Android 7.
+* Prohibited using a Google account for making backup copies of AppMetrica SDK data.
+
 `Mobmetricalib-2.42`, `VERSION 2.42`, `API LEVEL 45`
 ----------------------------------------------------
 * **mobmetricalib-2.42.jar** - jar file version.
@@ -334,6 +355,25 @@ Yandex.Metrica для приложений
 
 Последняя версия
 ----------------
+
+`Mobmetricalib-2.51`, `VERSION 2.51`, `API LEVEL 48`
+----------------------------------------------------
+* **mobmetricalib-2.51.jar** - ar версия.
+* **mobmetricalib-2.51.aar** - aar версия.
+* **mobmetricalib-2.51-javadoc.jar** - **Java**-документация, которую вы можете подключить к библиотеке.
+* **native** - нативные библиотеки.
+
+Метрика для приложений доступна и как maven-артефакт на maven-central:
+
+* **groupId**: com.yandex.android
+* **artifactId**: mobmetricalib
+* **version**: 2.51
+
+Version 2.51, Changelog
+-----------------------
+* Повышена стабильность работы библиотеки.
+* Добавлена поддержка Android 7.
+* Добавлен запрет на резервное копирование данных AppMetrica SDK в Google-аккаунт.
 
 `Mobmetricalib-2.42`, `VERSION 2.42`, `API LEVEL 45`
 ----------------------------------------------------

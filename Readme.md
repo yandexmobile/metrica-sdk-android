@@ -26,7 +26,7 @@ Maven central:
 * **artifactId**: mobmetricalib
 * **version**: 2.51
 
-Version 2.42, Changelog
+Version 2.51, Changelog
 -----------------------
 * Improved the stability of the library.
 * Added support for Android 7.

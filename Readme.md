@@ -12,6 +12,27 @@ Documentation
 Latest version
 --------------
 
+`Mobmetricalib-2.60`, `VERSION 2.60`, `API LEVEL 50`
+----------------------------------------------------
+* **mobmetricalib-2.60.jar** - jar file version.
+* **mobmetricalib-2.60.aar** - aar file version.
+* **mobmetricalib-2.60-javadoc.jar** - **Java**-doc for library.
+* **native** - native libraries.
+
+Alternatively you can get Metrica for Apps to your project as maven artifact.
+Maven central:
+
+* **groupId**: com.yandex.android
+* **artifactId**: mobmetricalib
+* **version**: 2.60
+
+Version 2.60, Changelog
+-----------------------
+* Added method YandexMetrica#reportAppOpen(android.app.Activity) for reporting deeplink app opening  
+* To YandexMetricaConfig.Builder added method handleFirstActivationAsUpdate(boolean). It allows library to consider first activation as app update (not new app install). It can be useful when new app version with appmetrica updates old version without library. 
+* Events database size limited to 5 MB 
+* other improvements and optimizations
+
 `Mobmetricalib-2.51`, `VERSION 2.51`, `API LEVEL 48`
 ----------------------------------------------------
 * **mobmetricalib-2.51.jar** - jar file version.
@@ -356,9 +377,29 @@ Yandex.Metrica для приложений
 Последняя версия
 ----------------
 
+`Mobmetricalib-2.60`, `VERSION 2.60`, `API LEVEL 50`
+----------------------------------------------------
+* **mobmetricalib-2.60.jar** - jar версия.
+* **mobmetricalib-2.60.aar** - aar версия.
+* **mobmetricalib-2.60-javadoc.jar** - **Java** - документация.
+* **native** - нативные библиотеки.
+
+Метрика для приложений доступна и как maven-артефакт на maven-central:
+
+* **groupId**: com.yandex.android
+* **artifactId**: mobmetricalib
+* **version**: 2.60
+
+Version 2.60, Changelog
+-----------------------
+* Добавлен метод для трекинга открытий приложения диплинками: YandexMetrica#reportAppOpen(android.app.Activity)
+* Добавлен метод, который сообщает метрике, что метрика активируется в установленном ранее приложении и первый запуск этой версии приложения стоит трактовать как запуск обновленной, а не впервые установленной версии приложения (актуально для случаев, когда appmetrica встраивается в приложение, у которого уже есть несколько релизных версий): YandexMetricaConfig.Builder#handleFirstActivationAsUpdate(boolean)
+* Размер бд событий ограничен 5MB
+* другие улучшения и оптимизации
+
 `Mobmetricalib-2.51`, `VERSION 2.51`, `API LEVEL 48`
 ----------------------------------------------------
-* **mobmetricalib-2.51.jar** - ar версия.
+* **mobmetricalib-2.51.jar** - jar версия.
 * **mobmetricalib-2.51.aar** - aar версия.
 * **mobmetricalib-2.51-javadoc.jar** - **Java**-документация, которую вы можете подключить к библиотеке.
 * **native** - нативные библиотеки.

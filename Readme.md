@@ -12,6 +12,24 @@ Documentation
 Latest version
 --------------
 
+`Mobmetricalib-2.62`, `VERSION 2.62`, `API LEVEL 52`
+----------------------------------------------------
+* **mobmetricalib-2.62.jar** - jar file version.
+* **mobmetricalib-2.62.aar** - aar file version.
+* **mobmetricalib-2.62-javadoc.jar** - **Java**-doc for library.
+* **native** - native libraries.
+
+Alternatively you can get Metrica for Apps to your project as maven artifact.
+Maven central:
+
+* **groupId**: com.yandex.android
+* **artifactId**: mobmetricalib
+* **version**: 2.62
+
+Version 2.61, Changelog
+-----------------------
+* Minor improvements and stabilization
+
 `Mobmetricalib-2.60`, `VERSION 2.60`, `API LEVEL 50`
 ----------------------------------------------------
 * **mobmetricalib-2.60.jar** - jar file version.
@@ -376,6 +394,23 @@ Yandex.Metrica для приложений
 
 Последняя версия
 ----------------
+
+`Mobmetricalib-2.62`, `VERSION 2.62`, `API LEVEL 52`
+----------------------------------------------------
+* **mobmetricalib-2.62.jar** - jar версия.
+* **mobmetricalib-2.62.aar** - aar версия.
+* **mobmetricalib-2.62-javadoc.jar** - **Java** - документация.
+* **native** - нативные библиотеки.
+
+Метрика для приложений доступна и как maven-артефакт на maven-central:
+
+* **groupId**: com.yandex.android
+* **artifactId**: mobmetricalib
+* **version**: 2.62
+
+Version 2.62, Changelog
+-----------------------
+* Незначительные улучшения, исправления и повышение стабильности
 
 `Mobmetricalib-2.60`, `VERSION 2.60`, `API LEVEL 50`
 ----------------------------------------------------

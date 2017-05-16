@@ -12,6 +12,27 @@ Documentation
 Latest version
 --------------
 
+`Mobmetricalib-2.70`, `VERSION 2.70`, `API LEVEL 55`
+----------------------------------------------------
+* **mobmetricalib-2.70.jar** - jar file version.
+* **mobmetricalib-2.70.aar** - aar file version.
+* **mobmetricalib-2.70-javadoc.jar** - **Java**-doc for library.
+* **native** - native libraries.
+
+Alternatively you can get Metrica for Apps to your project as maven artifact.
+Maven central:
+
+* **groupId**: com.yandex.android
+* **artifactId**: mobmetricalib
+* **version**: 2.70
+
+Version 2.70, Changelog
+-----------------------
+* Added deferred deeplink support
+* Improved crash collecting on application launch
+* Added logging events attributes
+* Minor improvements and stabilization
+
 `Mobmetricalib-2.62`, `VERSION 2.62`, `API LEVEL 52`
 ----------------------------------------------------
 * **mobmetricalib-2.62.jar** - jar file version.
@@ -26,7 +47,7 @@ Maven central:
 * **artifactId**: mobmetricalib
 * **version**: 2.62
 
-Version 2.61, Changelog
+Version 2.62, Changelog
 -----------------------
 * Minor improvements and stabilization
 
@@ -394,6 +415,26 @@ Yandex.Metrica для приложений
 
 Последняя версия
 ----------------
+
+`Mobmetricalib-2.70`, `VERSION 2.70`, `API LEVEL 55`
+----------------------------------------------------
+* **mobmetricalib-2.70.jar** - jar версия.
+* **mobmetricalib-2.70.aar** - aar версия.
+* **mobmetricalib-2.70-javadoc.jar** - **Java** - документация.
+* **native** - нативные библиотеки.
+
+Метрика для приложений доступна и как maven-артефакт на maven-central:
+
+* **groupId**: com.yandex.android
+* **artifactId**: mobmetricalib
+* **version**: 2.70
+
+Version 2.70, Changelog
+-----------------------
+* Добавлена поддержка отложенных диплинков
+* Улучшен сбор крешей, возникающих во время запуска приложения
+* Добавлен вывод в лог атрибутов событий
+* Другие незначительные улучшения, исправления и повышение стабильности
 
 `Mobmetricalib-2.62`, `VERSION 2.62`, `API LEVEL 52`
 ----------------------------------------------------

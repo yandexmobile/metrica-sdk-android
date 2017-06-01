@@ -1,16 +1,35 @@
-Yandex.Metrica for Apps 
+AppMetrica SDK
 ===========
 
-This repository contains various versions of **Yandex.Metrica for Android Apps**, **java-docs** and additional libraries that are necessary for it to work.
+This repository contains various versions of **AppMetrica SDK**, **java-docs** and additional libraries that are necessary for it to work.
 
 Documentation
 ---------------------------
-* You can register your app at [Yandex.Metrica for Apps homepage](http://appmetrica.yandex.ru/).
+* You can register your app at [AppMetrica SDK homepage](http://appmetrica.yandex.ru/).
 * [Documentation in Russian](https://tech.yandex.ru/metrica-mobile-sdk/doc/mobile-sdk-dg/concepts/android-initialize-docpage/) and [Documentation in English](https://tech.yandex.com/metrica-mobile-sdk/doc/mobile-sdk-dg/concepts/android-initialize-docpage/) are available. You can find some additional information about **mobmetricalib** there.
 * Test example for **mobmetricalib** is available at [https://github.com/yandexmobile/metrica-sample-android](https://github.com/yandexmobile/metrica-sample-android). It demonstrates several library use-cases.  
 
 Latest version
 --------------
+
+`Mobmetricalib-2.71`, `VERSION 2.71`, `API LEVEL 56`
+----------------------------------------------------
+* **mobmetricalib-2.71.jar** - jar file version.
+* **mobmetricalib-2.71.aar** - aar file version.
+* **mobmetricalib-2.71-javadoc.jar** - **Java**-doc for library.
+* **native** - native libraries.
+
+Alternatively you can get AppMetrica SDK to your project as maven artifact.
+Maven central:
+
+* **groupId**: com.yandex.android
+* **artifactId**: mobmetricalib
+* **version**: 2.71
+
+Version 2.71, Changelog
+-----------------------
+* Added method YandexMetrica#reportAppOpen(java.lang.String) for reporting deeplink app opening
+* Fixed error in deferred deeplink parameters retrieving
 
 `Mobmetricalib-2.70`, `VERSION 2.70`, `API LEVEL 55`
 ----------------------------------------------------
@@ -19,7 +38,7 @@ Latest version
 * **mobmetricalib-2.70-javadoc.jar** - **Java**-doc for library.
 * **native** - native libraries.
 
-Alternatively you can get Metrica for Apps to your project as maven artifact.
+Alternatively you can get AppMetrica SDK to your project as maven artifact.
 Maven central:
 
 * **groupId**: com.yandex.android
@@ -40,7 +59,7 @@ Version 2.70, Changelog
 * **mobmetricalib-2.62-javadoc.jar** - **Java**-doc for library.
 * **native** - native libraries.
 
-Alternatively you can get Metrica for Apps to your project as maven artifact.
+Alternatively you can get AppMetrica SDK to your project as maven artifact.
 Maven central:
 
 * **groupId**: com.yandex.android
@@ -58,7 +77,7 @@ Version 2.62, Changelog
 * **mobmetricalib-2.60-javadoc.jar** - **Java**-doc for library.
 * **native** - native libraries.
 
-Alternatively you can get Metrica for Apps to your project as maven artifact.
+Alternatively you can get AppMetrica SDK to your project as maven artifact.
 Maven central:
 
 * **groupId**: com.yandex.android
@@ -79,7 +98,7 @@ Version 2.60, Changelog
 * **mobmetricalib-2.51-javadoc.jar** - **Java**-doc for library.
 * **native** - native libraries.
 
-Alternatively you can get Metrica for Apps to your project as maven artifact.
+Alternatively you can get AppMetrica SDK to your project as maven artifact.
 Maven central:
 
 * **groupId**: com.yandex.android
@@ -99,7 +118,7 @@ Version 2.51, Changelog
 * **mobmetricalib-2.42-javadoc.jar** - **Java**-doc for library.
 * **native** - native libraries.
 
-Alternatively you can get Metrica for Apps to your project as maven artifact.
+Alternatively you can get AppMetrica SDK to your project as maven artifact.
 Maven central:
 
 * **groupId**: com.yandex.android
@@ -117,7 +136,7 @@ Version 2.42, Changelog
 * **mobmetricalib-2.41-javadoc.jar** - **Java**-doc for library.
 * **native** - native libraries.
 
-Alternatively you can get Metrica for Apps to your project as maven artifact.
+Alternatively you can get AppMetrica SDK to your project as maven artifact.
 Maven central:
 
 * **groupId**: com.yandex.android
@@ -135,7 +154,7 @@ Version 2.41, Changelog
 * **mobmetricalib-2.40-javadoc.jar** - **Java**-doc for library.
 * **native** - native libraries.
 
-Alternatively you can get Metrica for Apps to your project as maven artifact.
+Alternatively you can get AppMetrica SDK to your project as maven artifact.
 Maven central:
 
 * **groupId**: com.yandex.android
@@ -153,7 +172,7 @@ Version 2.40, Changelog
 * **mobmetricalib-2.32-javadoc.jar** - **Java**-doc for library.
 * **native** - native libraries.
 
-Alternatively you can get Metrica for Apps to your project as maven artifact.
+Alternatively you can get AppMetrica SDK to your project as maven artifact.
 Maven central:
 
 * **groupId**: com.yandex.android
@@ -171,7 +190,7 @@ Version 2.32, Changelog
 * **mobmetricalib-2.30-javadoc.jar** - **Java**-doc for library.
 * **native** - native libraries.
 
-Alternatively you can get Metrica for Apps to your project as maven artifact.
+Alternatively you can get AppMetrica SDK to your project as maven artifact.
 Maven central:
 
 * **groupId**: com.yandex.android
@@ -191,7 +210,7 @@ Version 2.30, Changelog
 * **mobmetricalib-2.21-javadoc.jar** - **Java**-doc for library.
 * **native** - native libraries.
 
-Alternatively you can get Metrica for Apps to your project as maven artifact.
+Alternatively you can get AppMetrica SDK to your project as maven artifact.
 Maven central:
 
 * **groupId**: com.yandex.android
@@ -216,7 +235,7 @@ Version 2.21, Changelog
 * **mobmetricalib-2.00-javadoc.jar** - **Java**-doc for library.
 * **native** - native libraries.
 
-Alternatively you can get Metrica for Apps to your project as maven artifact.
+Alternatively you can get AppMetrica SDK to your project as maven artifact.
 Maven central:
 
 * **groupId**: com.yandex.android
@@ -244,7 +263,7 @@ Version 2.00, Changelog
 * **mobmetricalib-android-1.82-javadoc.jar** - **Java**-doc for library.
 * **native** - native libraries.
 
-Alternatively you can get Metrica for Apps to your project as maven artifact.
+Alternatively you can get AppMetrica SDK to your project as maven artifact.
 Maven central:
 
 * **groupId**: com.yandex.android
@@ -256,7 +275,7 @@ Version 1.82, Changelog
 
 * Increased **API-level** to **31**.
 * Improved quality of calculating statistics for sessions and installs.
-* Migrated to protobuf-nano — the overall size of the library is smaller and it works faster. If you were using the protobuf-2.5.0 library with the Yandex.Metrica for Apps library, delete it.
+* Migrated to protobuf-nano — the overall size of the library is smaller and it works faster. If you were using the protobuf-2.5.0 library with the AppMetrica SDK, delete it.
 * The AndroidManifest.xml file does not specify
   provider:
   ```
@@ -278,7 +297,7 @@ Version 1.82, Changelog
       <data android:scheme="package"/>
   </intent-filter>
   ```
-* To use the Yandex.Metrica for Apps library, you do not need to create a custom provider class in the application package with the name MetricaContentProvider that inherits from com.yandex.metrica.MetricaContentProvider. Delete it from your application.
+* To use the AppMetrica SDK, you do not need to create a custom provider class in the application package with the name MetricaContentProvider that inherits from com.yandex.metrica.MetricaContentProvider. Delete it from your application.
 * Added the ability to transmit [additional crash data.](https://tech.yandex.com/metrica-mobile-sdk/doc/mobile-sdk-dg/concepts/android-operations-docpage/#environment-value)
 
 `Mobmetricalib-1.65`, `VERSION 1.65`, `API LEVEL 21`
@@ -290,7 +309,7 @@ Version 1.82, Changelog
 * **protobuf-java-2.5.0.jar** - **protobuf** library for **mobmetricalib-android-1.65-nolibs.jar**, version **2.5.0**.
 * **native** - native libraries.
 
-Alternatively you can get Metrica for Apps to your project as maven artifact.
+Alternatively you can get AppMetrica SDK to your project as maven artifact.
 Maven central:
 
 * **groupId**: com.yandex.android
@@ -312,7 +331,7 @@ Version 1.65, Changelog
 * **protobuf-java-2.5.0.jar** - **protobuf** library for **mobmetricalib-android-1.60-nolibs.jar**, version **2.5.0**.
 * **native** - native libraries.
 
-Alternatively you can get Metrica for Apps to your project as maven artifact. 
+Alternatively you can get AppMetrica SDK to your project as maven artifact. 
 Maven central:
 
 * **groupId**: com.yandex.android
@@ -348,7 +367,7 @@ Version 1.60, Changelog
 * **mobmetricalib-android-1.2-javadoc.jar** - **Java**-doc for library.
 * **protobuf-java-2.5.0.jar** - **protobuf** library for **mobmetricalib-android-1.2-nolibs.jar**, version **2.5.0**.
 
-Alternatively you can get Metrica for Apps to your project as maven artifact. 
+Alternatively you can get AppMetrica SDK to your project as maven artifact. 
 Maven central:
 
 * **groupId**: com.yandex.android
@@ -384,7 +403,7 @@ Version 1.2, Changelog
 * **mobmetricalib-android-1.0-javadoc.jar** - **Java**-doc for library.
 * **protobuf-java-2.4.1.jar** - **protobuf** library for **mobmetricalib-android-1.0-nolibs.jar**, version **2.4.1**.
 
-Alternatively you can get Metrica for Apps to your project as maven artifact. 
+Alternatively you can get AppMetrica SDK to your project as maven artifact. 
 Maven central:
 
 * **groupId**: com.yandex.android
@@ -394,27 +413,45 @@ Maven central:
 License
 ---------
 
-License agreement on use of Yandex.Metrica for Apps SDK is available at: [http://legal.yandex.ru/metrica_termsofuse/](http://legal.yandex.ru/metrica_termsofuse/).
+License agreement on use of AppMetrica SDK is available at: [http://legal.yandex.ru/metrica_termsofuse/](http://legal.yandex.ru/metrica_termsofuse/).
 
 
 
 ---------------
 
 
-Yandex.Metrica для приложений
+AppMetrica SDK
 ===============
 
 
-В этом репозитории находятся различные версии **Yandex.Metrica for Android Apps**. Тут вы сможете найти **java-docs** к ним и дополнительные библиотеки, которые нужны для ее работы.
+В этом репозитории находятся различные версии **AppMetrica SDK**. Тут вы сможете найти **java-docs** к ним и дополнительные библиотеки, которые нужны для ее работы.
 
 Документация
 ---------------------------
-* Вы можете зарегистрировать свое приложение на [домашней странице Yandex.Metrica for Apps](http://appmetrica.yandex.ru/).
+* Вы можете зарегистрировать свое приложение на [домашней странице AppMetrica SDK](http://appmetrica.yandex.ru/).
 * Доступна [документация на русском](https://tech.yandex.ru/metrica-mobile-sdk/doc/mobile-sdk-dg/concepts/android-initialize-docpage/) и [на английском](https://tech.yandex.com/metrica-mobile-sdk/doc/mobile-sdk-dg/concepts/android-initialize-docpage/), в которой содержится полная документация по **mobmetricalib** и описание подключения библиотеки к вашему проекту, а также инструкции по использованию.
 * Доступен тестовый пример, демонстрирующий различные возможности библиотеки. Вы можете найти его в другом репозитории [здесь](https://github.com/yandexmobile/metrica-sample-android).
 
 Последняя версия
 ----------------
+
+`Mobmetricalib-2.71`, `VERSION 2.71`, `API LEVEL 56`
+----------------------------------------------------
+* **mobmetricalib-2.71.jar** - jar версия.
+* **mobmetricalib-2.71.aar** - aar версия.
+* **mobmetricalib-2.71-javadoc.jar** - **Java** - документация.
+* **native** - нативные библиотеки.
+
+AppMetrica SDK доступна и как maven-артефакт на maven-central:
+
+* **groupId**: com.yandex.android
+* **artifactId**: mobmetricalib
+* **version**: 2.71
+
+Version 2.71, Changelog
+-----------------------
+* Добавлен метод для трекинга открытий приложения диплинками: YandexMetrica#reportAppOpen(java.lang.String)
+* Исправлена ошибка при получении параметров отложенных диплинков
 
 `Mobmetricalib-2.70`, `VERSION 2.70`, `API LEVEL 55`
 ----------------------------------------------------
@@ -423,7 +460,7 @@ Yandex.Metrica для приложений
 * **mobmetricalib-2.70-javadoc.jar** - **Java** - документация.
 * **native** - нативные библиотеки.
 
-Метрика для приложений доступна и как maven-артефакт на maven-central:
+AppMetrica SDK доступна и как maven-артефакт на maven-central:
 
 * **groupId**: com.yandex.android
 * **artifactId**: mobmetricalib
@@ -443,7 +480,7 @@ Version 2.70, Changelog
 * **mobmetricalib-2.62-javadoc.jar** - **Java** - документация.
 * **native** - нативные библиотеки.
 
-Метрика для приложений доступна и как maven-артефакт на maven-central:
+AppMetrica SDK доступна и как maven-артефакт на maven-central:
 
 * **groupId**: com.yandex.android
 * **artifactId**: mobmetricalib
@@ -460,7 +497,7 @@ Version 2.62, Changelog
 * **mobmetricalib-2.60-javadoc.jar** - **Java** - документация.
 * **native** - нативные библиотеки.
 
-Метрика для приложений доступна и как maven-артефакт на maven-central:
+AppMetrica SDK доступна и как maven-артефакт на maven-central:
 
 * **groupId**: com.yandex.android
 * **artifactId**: mobmetricalib
@@ -480,7 +517,7 @@ Version 2.60, Changelog
 * **mobmetricalib-2.51-javadoc.jar** - **Java**-документация, которую вы можете подключить к библиотеке.
 * **native** - нативные библиотеки.
 
-Метрика для приложений доступна и как maven-артефакт на maven-central:
+AppMetrica SDK доступна и как maven-артефакт на maven-central:
 
 * **groupId**: com.yandex.android
 * **artifactId**: mobmetricalib
@@ -499,7 +536,7 @@ Version 2.51, Changelog
 * **mobmetricalib-2.42-javadoc.jar** - **Java**-документация, которую вы можете подключить к библиотеке.
 * **native** - нативные библиотеки.
 
-Метрика для приложений доступна и как maven-артефакт на maven-central:
+AppMetrica SDK доступна и как maven-артефакт на maven-central:
 
 * **groupId**: com.yandex.android
 * **artifactId**: mobmetricalib
@@ -516,7 +553,7 @@ Version 2.42, Changelog
 * **mobmetricalib-2.41-javadoc.jar** - **Java**-документация, которую вы можете подключить к библиотеке.
 * **native** - нативные библиотеки.
 
-Метрика для приложений доступна и как maven-артефакт на maven-central:
+AppMetrica SDK доступна и как maven-артефакт на maven-central:
 
 * **groupId**: com.yandex.android
 * **artifactId**: mobmetricalib
@@ -533,7 +570,7 @@ Version 2.41, Changelog
 * **mobmetricalib-2.40-javadoc.jar** - **Java**-документация, которую вы можете подключить к библиотеке.
 * **native** - нативные библиотеки.
 
-Метрика для приложений доступна и как maven-артефакт на maven-central:
+AppMetrica SDK доступна и как maven-артефакт на maven-central:
 
 * **groupId**: com.yandex.android
 * **artifactId**: mobmetricalib
@@ -550,7 +587,7 @@ Version 2.40, Changelog
 * **mobmetricalib-2.32-javadoc.jar** - **Java**-документация, которую вы можете подключить к библиотеке.
 * **native** - нативные библиотеки.
 
-Метрика для приложений доступна и как maven-артефакт на maven-central:
+AppMetrica SDK доступна и как maven-артефакт на maven-central:
 
 * **groupId**: com.yandex.android
 * **artifactId**: mobmetricalib
@@ -567,7 +604,7 @@ Version 2.32, Changelog
 * **mobmetricalib-2.30-javadoc.jar** - **Java**-документация, которую вы можете подключить к библиотеке.
 * **native** - нативные библиотеки.
 
-Метрика для приложений доступна и как maven-артефакт на maven-central:
+AppMetrica SDK доступна и как maven-артефакт на maven-central:
 
 * **groupId**: com.yandex.android
 * **artifactId**: mobmetricalib
@@ -586,7 +623,7 @@ Version 2.30, Changelog
 * **mobmetricalib-2.21-javadoc.jar**  - **Java**-документация, которую вы можете подключить к библиотеке.
 * **native** - нативные библиотеки.
 
-Метрика для приложений доступна и как maven-артефакт на maven-central:
+AppMetrica SDK доступна и как maven-артефакт на maven-central:
 
 * **groupId**: com.yandex.android
 * **artifactId**: mobmetricalib
@@ -610,7 +647,7 @@ Version 2.30, Changelog
 * **mobmetricalib-2.00-javadoc.jar** - **Java**-документация, которую вы можете подключить к библиотеке.
 * **native** - нативные библиотеки.
 
-Метрика для приложений доступна и как maven-артефакт на maven-central:
+AppMetrica SDK доступна и как maven-артефакт на maven-central:
 
 * **groupId**: com.yandex.android
 * **artifactId**: mobmetricalib
@@ -637,7 +674,7 @@ Version 2.30, Changelog
 * **mobmetricalib-android-1.82-javadoc.jar** - **Java**-документация, которую вы можете подключить к библиотеке.
 * **native** - нативные библиотеки.
 
-Метрика для приложений доступна и как maven-артефакт на maven-central:
+AppMetrica SDK доступна и как maven-артефакт на maven-central:
 
 * **groupId**: com.yandex.android
 * **artifactId**: mobmetricalib
@@ -648,7 +685,7 @@ Version 2.30, Changelog
 
 * Увеличен **metrica:api:level** до **31**. Обновите его значение в **AndroidManifest.xml**.
 * Повышено качество подсчета статистики сессий и установок.
-* Осуществлен переход на protobuf-nano — увеличена скорость работы и сокращен общий размер библиотеки. Если вы использовали библиотеку protobuf-2.5.0 для работы с библиотекой Yandex.Metrica for Apps, удалите ее.
+* Осуществлен переход на protobuf-nano — увеличена скорость работы и сокращен общий размер библиотеки. Если вы использовали библиотеку protobuf-2.5.0 для работы с библиотекой AppMetrica SDK, удалите ее.
 * В файле AndroidManifest.xml не указываются
   provider:
   ```
@@ -670,7 +707,7 @@ Version 2.30, Changelog
       <data android:scheme="package"/>
   </intent-filter>
   ```
-* Для работы библиотеки Yandex.Metrica for Apps не требуется создавать в пакете приложения собственный класс провайдера с названием MetricaContentProvider, наследующий класс com.yandex.metrica.MetricaContentProvider. Удалите его из своего приложения.
+* Для работы библиотеки AppMetrica SDK не требуется создавать в пакете приложения собственный класс провайдера с названием MetricaContentProvider, наследующий класс com.yandex.metrica.MetricaContentProvider. Удалите его из своего приложения.
 * Добавлена возможность [передавать дополнительные данные](https://tech.yandex.ru/metrica-mobile-sdk/doc/mobile-sdk-dg/concepts/android-operations-docpage/#environment-value) об аварийных остановках приложения.
 
 
@@ -683,7 +720,7 @@ Version 2.30, Changelog
 * **protobuf-java-2.5.0.jar** - **protobuf** библиотека для **mobmetricalib-android-1.65-nolibs.jar**, версия **2.5.0**.
 * **native** - нативные библиотеки.
 
-Метрика для приложений доступна и как maven-артефакт на maven-central:
+AppMetrica SDK доступна и как maven-артефакт на maven-central:
 
 * **groupId**: com.yandex.android
 * **artifactId**: mobmetricalib
@@ -704,7 +741,7 @@ Version 2.30, Changelog
 * **protobuf-java-2.5.0.jar** - **protobuf** библиотека для **mobmetricalib-android-1.60-nolibs.jar**, версия **2.5.0**.
 * **native** - нативные библиотеки.
 
-Метрика для приложений доступна и как maven-артефакт на maven-central:
+AppMetrica SDK доступна и как maven-артефакт на maven-central:
 
 * **groupId**: com.yandex.android
 * **artifactId**: mobmetricalib
@@ -739,7 +776,7 @@ Version 2.30, Changelog
 * **mobmetricalib-android-1.2-javadoc.jar** - **Java**-документация, которую вы можете подключить к библиотеке.
 * **protobuf-java-2.5.0.jar** - **protobuf** библиотека для **mobmetricalib-android-1.2-nolibs.jar**, версия **2.5.0**.
 
-Метрика для приложений доступна и как maven-артефакт на maven-central:
+AppMetrica SDK доступна и как maven-артефакт на maven-central:
 
 * **groupId**: com.yandex.android
 * **artifactId**: mobmetricalib
@@ -774,7 +811,7 @@ Version 2.30, Changelog
 * **mobmetricalib-android-1.0-javadoc.jar** - **Java**-документация, которую вы можете подключить к библиотеке.
 * **protobuf-java-2.4.1.jar** - **protobuf** библиотека для **mobmetricalib-android-1.0-nolibs.jar**, версия **2.4.1**.
 
-Метрика для приложений доступна и как maven-артефакт на maven-central:
+AppMetrica SDK доступна и как maven-артефакт на maven-central:
 
 * **groupId**: com.yandex.android
 * **artifactId**: mobmetricalib
@@ -783,5 +820,5 @@ Version 2.30, Changelog
 Лицензия
 ---------
 
-Лицензионное соглашение по использованию **Yandex.Metrica for Apps SDK** доступно по следующей ссылке [http://legal.yandex.ru/metrica_termsofuse/](http://legal.yandex.ru/metrica_termsofuse/).
+Лицензионное соглашение по использованию **AppMetrica SDK** доступно по следующей ссылке [http://legal.yandex.ru/metrica_termsofuse/](http://legal.yandex.ru/metrica_termsofuse/).
 

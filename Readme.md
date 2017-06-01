@@ -12,6 +12,25 @@ Documentation
 Latest version
 --------------
 
+`Mobmetricalib-2.71`, `VERSION 2.71`, `API LEVEL 56`
+----------------------------------------------------
+* **mobmetricalib-2.71.jar** - jar file version.
+* **mobmetricalib-2.71.aar** - aar file version.
+* **mobmetricalib-2.71-javadoc.jar** - **Java**-doc for library.
+* **native** - native libraries.
+
+Alternatively you can get Metrica for Apps to your project as maven artifact.
+Maven central:
+
+* **groupId**: com.yandex.android
+* **artifactId**: mobmetricalib
+* **version**: 2.71
+
+Version 2.71, Changelog
+-----------------------
+* Added method YandexMetrica#reportAppOpen(java.lang.String) for reporting deeplink app opening
+* Fixed error in deferred deeplink parameters retrieving
+
 `Mobmetricalib-2.70`, `VERSION 2.70`, `API LEVEL 55`
 ----------------------------------------------------
 * **mobmetricalib-2.70.jar** - jar file version.
@@ -415,6 +434,24 @@ Yandex.Metrica для приложений
 
 Последняя версия
 ----------------
+
+`Mobmetricalib-2.71`, `VERSION 2.71`, `API LEVEL 56`
+----------------------------------------------------
+* **mobmetricalib-2.71.jar** - jar версия.
+* **mobmetricalib-2.71.aar** - aar версия.
+* **mobmetricalib-2.71-javadoc.jar** - **Java** - документация.
+* **native** - нативные библиотеки.
+
+Метрика для приложений доступна и как maven-артефакт на maven-central:
+
+* **groupId**: com.yandex.android
+* **artifactId**: mobmetricalib
+* **version**: 2.71
+
+Version 2.71, Changelog
+-----------------------
+* Добавлен метод для трекинга открытий приложения диплинками: YandexMetrica#reportAppOpen(java.lang.String)
+* Исправлена ошибка при получении параметров отложенных диплинков
 
 `Mobmetricalib-2.70`, `VERSION 2.70`, `API LEVEL 55`
 ----------------------------------------------------

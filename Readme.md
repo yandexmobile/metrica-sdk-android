@@ -11,6 +11,24 @@ Documentation
 
 Latest version
 --------------
+`Mobmetricalib-2.78`, `VERSION 2.78`, `API LEVEL 63`
+----------------------------------------------------
+* **mobmetricalib-2.78.jar** - jar file version.
+* **mobmetricalib-2.78.aar** - aar file version.
+* **mobmetricalib-2.78-javadoc.jar** - **Java**-doc for library.
+* **native** - native libraries.
+
+Alternatively you can get AppMetrica SDK to your project as maven artifact.
+Maven central:
+
+* **groupId**: com.yandex.android
+* **artifactId**: mobmetricalib
+* **version**: 2.78
+
+Version 2.78, Changelog
+-----------------------
+* Minor improvements and stabilization
+
 `Mobmetricalib-2.77`, `VERSION 2.77`, `API LEVEL 62`
 ----------------------------------------------------
 * **mobmetricalib-2.77.jar** - jar file version.
@@ -489,6 +507,23 @@ AppMetrica SDK
 
 Последняя версия
 ----------------
+`Mobmetricalib-2.78`, `VERSION 2.78`, `API LEVEL 63`
+----------------------------------------------------
+* **mobmetricalib-2.78.jar** - jar версия.
+* **mobmetricalib-2.78.aar** - aar версия.
+* **mobmetricalib-2.78-javadoc.jar** - **Java** - документация.
+* **native** - нативные библиотеки.
+
+AppMetrica SDK доступна и как maven-артефакт на maven-central:
+
+* **groupId**: com.yandex.android
+* **artifactId**: mobmetricalib
+* **version**: 2.78
+
+Version 2.78, Changelog
+-----------------------
+* Незначительные улучшения, исправления и повышение стабильности
+
 `Mobmetricalib-2.77`, `VERSION 2.77`, `API LEVEL 62`
 ----------------------------------------------------
 * **mobmetricalib-2.77.jar** - jar версия.

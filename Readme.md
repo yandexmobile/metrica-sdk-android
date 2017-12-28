@@ -28,7 +28,6 @@ Maven central:
 Version 2.80, Changelog
 -----------------------
 * Minor improvements for Android 8
---------------
 
 `Mobmetricalib-2.78`, `VERSION 2.78`, `API LEVEL 63`
 ----------------------------------------------------

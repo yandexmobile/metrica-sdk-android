@@ -1,3 +1,8 @@
+# 🚀 Project Moved to Open Source! 🚀
+> We're thrilled to announce that AppMetrica SDK is now **open source**! To get the latest updates, contribute, or report issues, please visit our new repository: [AppMetrica SDK on GitHub](https://github.com/appmetrica/appmetrica-sdk-android).
+
+---
+
 AppMetrica SDK
 ===========
 This repository is deprecated. Please, use [https://github.com/yandexmobile/metrica-sample-android](https://github.com/yandexmobile/metrica-sample-android) for issues and discussion.
